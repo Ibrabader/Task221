@@ -1,0 +1,44 @@
+:root {
+    --dark-color : #567189
+}
+.logo{
+    height: 22.64px;
+    margin-left: 30px;
+   
+    
+}
+.navbar {
+    background-color:white;
+    height: 72px;
+    box-shadow: 1.95px 1.95px 2.6px rgba(0,0,0,.15)}
+    
+.form-field{
+    border-style: solid;
+    border-width: 0;
+    background-color:#D9D9D9;
+    width: 16rem;
+    height: 31px;
+    border-radius: 50px;
+}
+.form-field img {
+width: 25px;
+margin-right: 10px;
+}
+
+
+.collapse .form-control{
+    background-color:transparent;
+    width: 16rem;
+    height: 31px;
+    border: none;
+
+}
+
+.collapse .form-control:focus {
+        color: black;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+     box-shadow: none; 
+}
+

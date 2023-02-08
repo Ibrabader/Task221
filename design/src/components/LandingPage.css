@@ -1,0 +1,106 @@
+.landing{
+    min-height: 100vh;
+}
+
+#edit {
+        width: 303px;
+    height: 40px;
+    background: #F66B0E;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    }
+.country-list select{
+    border: none;
+    background-image: none;
+    
+}
+.country-list select:hover{
+   
+    cursor: pointer;
+
+}
+.country-list select:focus-visible{
+    border: none;
+    background-image: none;
+    cursor: pointer;
+    border: none;
+
+}
+.hobby-list span{
+width: 100px;
+height: 32px;
+color: #1FA3FF
+;
+background: rgba(31, 163, 255, 0.1);
+border-radius: 5px;
+
+display: flex;
+
+}
+
+
+
+.hobby-list option{
+    width: 69px;
+height: 32px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+
+.country-list {
+    width: 303px;
+height: 60px;
+border: 1px solid #000000;
+border-radius: 15px;
+}   
+ .nav-pills  .nav-item a{
+    width: 152px;
+    height: 38px;
+border-radius: 5px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #929292;
+
+}
+
+ .nav-pills .nav-item .active{
+   
+    width: 152px;
+    height: 38px;
+background: rgba(247, 122, 39, 0.15);
+border-radius: 5px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #F77A27;
+
+}
+ .nav-pills .nav-item:hover{
+    width: 152px;
+    height: 38px;
+background: rgba(247, 122, 39, 0.15);
+border-radius: 5px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #F77A27;
+cursor: pointer;
+
+}
+.row .side-Menu{
+    background: #FFFFFF;
+    border-right: 1px solid rgba(196, 196, 196, 0.5);}
