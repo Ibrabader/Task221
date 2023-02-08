@@ -1,0 +1,49 @@
+:root {
+    --main-color :#F66B0E
+}
+
+ body .form-container  {
+    max-width: 750px
+  
+}
+
+form .btn-cotom{
+    background-color: #F66B0E;
+    border: none;
+}
+form .btn-cotom:hover{
+    background-color: #fe7316;
+    border: none;
+}
+
+.form-select:valid{
+    background-image: none;
+    
+}
+
+#validationCustom01{
+    background-image: none;
+}
+.form-control.is-invalid, .was-validated .form-control:invalid  {
+    background-image: none;
+    /* background-color: #F66B0E; */
+    background-image: url('');
+
+
+}
+
+.image-div{
+    /* background-color: #F66B0E; */
+    /* border: black solid 1px ; */
+    /* height: 250px; */
+    width: 250px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.image-div img {
+    /* margin-left: 50px;
+    margin-top: 10px; */
+    height: 200px;
+    width: 200px;
+}
